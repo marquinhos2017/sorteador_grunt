@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded',function() {
       numeromaximo = parseInt(numeromaximo);
 
       let numeroaleatorio = Math.random() * numeromaximo;
-      alert(numeroaleatorio);
+      
       numeroaleatorio = Math.floor(numeroaleatorio) + 1;
 
       document.getElementById('resultado-valor').innerText = numeroaleatorio;
